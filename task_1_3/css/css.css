@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin: 0px;
+    	padding: 0px;
+     }
+
+     .box{ background: #eee;
+  			border: 1px solid #999;
+     	    margin: 0 auto;
+     	    min-width: 600px;
+     	    overflow: auto;
+     	    padding: 20px;
+            }
+
+     .left{ width:160px;
+            background: #fff;
+            border: 1px solid #999;
+            float: left;
+            padding: 20px;
+            }
+
+     .right{width:120px;
+     	    background: #fff;
+            border: 1px solid #999;
+            float: right;
+          }
+
+
+       .middle{ background: #fff;
+	          border: 1px solid #999;
+	          margin-left: 220px;
+	          margin-right: 140px;
+	          padding-top: 20px;
+	          padding-bottom: 20px;
+			  padding:20px;
+	        } 
+      .middle p{ margin-bottom:20px;}
+      span{ float: left;}
+      h2{color:#666;}
+
+      .right img{ width: 80px;
+		          height: 80px;
+		          margin:20px;
+		         }
+       
+      .left img{width: 80px;
+		        height: 80px;}
+

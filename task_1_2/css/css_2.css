@@ -1,0 +1,92 @@
+@charset "utf-8";
+ 
+  *{margin: 0px;
+    padding: 0px;
+    }
+
+    body{ font-family: "Calibri" 16px;
+          line-height: 25px;
+          padding: 20px;
+          background: #000;
+    }
+    button,input{ margin: 10px auto;
+                  text-align: center;}
+    ul,ol{ list-style: none;}
+	ol{counter-reset:sectioncounter;}  
+    ol li:before { content:counter(sectioncounter) ".";   
+				   counter-increment:sectioncounter;  
+     } 
+    h1,h3{ line-height: 50px;}
+	h3{ color:#666;}
+    td{ border: 1px solid;}
+	.input_part input{ width:150px;
+	       height:30px;
+		   color:#000;
+		   margin-left:10px;
+		   }
+    .box img{ width: 400px;
+        height: 300px;}
+    article{box-shadow: 3px 3px 3px #999;
+            background: #fff;
+            margin-bottom: 20px;
+            padding: 20px; }
+
+    .nav{ background: #000;
+          width: 100%;
+          height: 60px;
+            }
+    .nav_left{ float: left;}
+    .nav_right{ float: right;}
+    .nav ul li{ float: left; margin-right: 10px;}
+    ul li a{ text-decoration: none;
+             color: #fff;}
+
+
+    .box{ background: #ccc;
+          padding: 20px;
+         }
+    
+     
+    .info{ color: #ccc;
+          }
+    .info span{ margin: 10px;}
+    article p:nth-of-type(1){text-indent: 2em;}
+
+    .mix li{ width: 100px;
+          height: 120px;
+          padding: 20px;
+          border: 1px solid;
+          margin-left: 50px;
+          margin-bottom: 10px;}
+    .mix li span{ width: 100px;
+                  padding-left: 10px;
+                  text-align: center;
+                  margin: 0 auto;
+                  }
+    .mix li img{ width: 100px;
+                 height: 100px;
+                }
+    .title{ border-left:4px solid #ccc;
+	        padding-left:10px;
+			color:#ccc;}
+    .form_list{ margin-left:40%;}
+
+    .select{ float:left;margin-left:20px;}
+	.select input{margin-left:20px;color:blue;}
+	.group_name{float:left;}
+	.group_name{ clear:both;}
+	.city{ float:left;}
+	.submit{ clear:both;
+	          }
+	.submit button{ margin-top:20px; 
+	                width:98%;
+					height:50px; 
+					background:blue; 
+					border-radius:10px;}
+	.hobby{ clear:both;}
+	.hobby_part{ float:left;}
+	.check{ float:left;}
+	.check input{ margin-left:15px;}
+	.person{ clear:both;}
+	.person_list{float:left;}
+	.desc{ float:left;}
