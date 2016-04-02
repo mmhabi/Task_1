@@ -1,0 +1,22 @@
+*{margin: 0px;padding: 0px;}
+table .tr01 td{color: red;}
+table tr:nth-child(2n+1){background: #ccc;}
+.th01 th{background: #000;color: #fff;text-align: center;}
+form input{margin-top: 20px;margin-bottom: 50px;}
+form input:focus{width: 300px;outline: none;}
+.banner{width: 250px;height: 100px;position: relative;overflow: hidden;}
+.banner_ul{width: 380%;height: 100%;position: relative;left:0;transition:1s left;list-style: none;}
+.banner_ul li{display: inline-block;width: 300px;height: 100px;margin: 0px;}
+
+.banner_a{position: absolute;top: 70px;left:100px;}
+.banner_a a{text-decoration: none;display: inline-block;width: 30px;height: 30px;line-height: 30px;
+            font-size: 16px;background: #fff;opacity: 0.5;text-align: center;color: #ccc;}
+.banner_a a:visited{color: #ccc};
+
+#img01:target~.banner_ul{left:0;}
+#img02:target~.banner_ul{left:-128%;}
+#img03:target~.banner_ul{left:-250%;}
+
+.banner_ul li:nth-child(1){background: #00f;}
+.banner_ul li:nth-child(2){background: #0f0;}
+.banner_ul li:nth-child(3){background: #f00;}
