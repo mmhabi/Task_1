@@ -1,0 +1,82 @@
+*{margin: 0px;padding: 0px;}
+body{background: #5D5D5D;}
+#box{width: 980px;height: 1386px;background:#fff;margin: auto;}
+
+/*头部css代码*/
+header,#middle01,#middle02,#middle03,footer{width: 892px;margin: auto;}
+header{height: 63px;margin-bottom: 30px;}
+header .top01{width: 110px;height: 61px;background: #D55D5C;float: left;}
+header .top01 p{font-size: 12px;color: #fff;font-family: "黑体";margin-top: 45px;margin-left: 3px;}
+header .p01{font-size:12px;color:#d45d5c;font-family:"黑体";float: right;margin-top: 45px;}
+header .top02{width: 892px;height: 2px;background: #938e8c;clear: both;}
+
+/*第二部分代码*/
+#middle01{height: 301px;}
+#middle01 .middle01_left{width: 641px;height: 301px;background: url(img/ico.gif);float: left;}
+#middle01 .middle01_left .blue{width: 191px;height: 301px;float: left;opacity: 0.5;background: #284D3B;}
+#middle01 .middle01_left .red{width: 191px;height: 301px;float: right;opacity: 0.5;background: #6B434E;}
+#middle01 .middle01_right{width: 203px;height: 301px;float: right;}
+#middle01 .middle01_right .right01{width: 203px;height: 2px;background: #cc8041;}
+#middle01 .middle01_right p.about{font-family: "微软雅黑";font-size: 24px;text-decoration: underline;line-height: 40px;}
+#middle01 .middle01_right p.about span{font-size: 34px;}
+#middle01 .middle01_right p.more{font-family: "楷体";font-size: 12px;color: #676767;line-height: 10px;}
+#middle01 .middle01_right em{font-family: "微软雅黑";font-size: 110px;color: #75b86b;}
+#middle01 .middle01_right p.three,p.cs{font-family: "微软雅黑";color:#cc8091;margin-top: -20px;}
+#middle01 .middle01_right p.three{width:60px;height:60px;font-size: 55px;float: left;}
+#middle01 .middle01_right p.cs{font-size: 21px;float: right;line-height: 15px;margin-right: 30px;margin-top: 5px;}
+#middle01 .middle01_right p.cs span{font-size: 12px;}
+
+/*第三部分代码*/
+#middle02{height: 200px;margin-top: 30px;}
+#middle02 .middle02_what{width:235px;height: 200px;float: left;}
+#middle02 .middle02_what p.what{font-size:16px;color: #418c59;font-family:"微软雅黑";text-decoration: underline; }
+#middle02 .middle02_what p.qianduan{font-family:"宋体";font-size: 12px;color: #767777;line-height: 16px;}
+p.qianduan{margin-top: 10px;}
+#middle02 .middle02_when{width:210px;height: 200px;margin-left: 20px;float: left;}
+#middle02 .middle02_when p.when{font-family:"微软雅黑";font-size:16px;color: #d2994f;text-decoration: underline;}
+#middle02 .middle02_when,.middle02_how p.qianduan,p.what{font-family:"微软雅黑";font-size:12px;color: #231815;line-height: 16px;opacity: 0.7;}
+#middle02 .middle02_how{width: 100px;height: 200px;margin-left: 20px;float: left;}
+#middle02 .middle02_how p.qianduan{margin-top: 5px;}
+#middle02 .middle02_how p.how{font-family:"微软雅黑";font-weight:bolder;font-size:16px;color: #cc7680;text-decoration: underline;}
+#middle02 .middle02_how p.what{margin-top: 30px;}
+#middle02 .middle02_how em{font-family:"微软雅黑";font-size: 12px;color: #cd4a48;line-height: 16px;opacity: 0.6;}
+
+/*第四部分代码*/
+#middle03{height: 600px;margin-top: 50px;}
+#middle03 .middle03_left{width: 415px;height:600px;float: left;}
+#middle03 .middle03_left span.p00{font-family: "黑体";font-size: 42px;color: #11456b;font-weight: bolder;line-height: 16px;word-spacing: 5px;margin-left: 30px;}
+#middle03 .middle03_left i{font-family: "黑体";font-size: 72px;color: #f5e327;}
+#middle03 .middle03_left p.p0{font-family: "黑体";font-size: 32px;color: #11456b;font-weight: bolder;line-height: 50px;}
+#middle03 .middle03_left .div{width: 415px;height: 2px;background: #11456b;margin-top: 6px;}
+#middle03 .middle03_left span.qian{font-size: 70px;color: #f5e327;font-family: "微软雅黑";float: left;margin-right: 8px;}
+#middle03 .middle03_left p{font-size: 12px;color: #767777;font-family: "宋体";line-height: 16px;}
+#middle03 .middle03_left p.p01{margin-top: 15px;}
+#middle03 .middle03_left div.p02{width:235px;clear: both;float: left;}
+#middle03 .middle03_left img{margin-top:13px;float: right;}
+#middle03 .middle03_left p.p03{clear: both;}
+
+
+#middle03_right{width: 458px;height: 600px;float: right;}
+#middle03_right .middle03_right01{width: 457px;height: 257px;background:url(img/ico02.gif);}
+#middle03_right .middle03_right01 .black01{width: 458px;height: 61px;background:#000;opacity: 0.3;position: absolute;margin-top: 196px;}
+#middle03_right .middle03_right01 .shu{width: 3px;height: 44px;background: #72b16a;margin-top: 10px;margin-left: 50px;}
+#middle03_right .middle03_right01 p{font-size: 26px;color: #fff;font-family: "微软雅黑";margin-top: -40px;margin-left: 70px;}
+#middle03_right .middle03_right01 p>i{font-size: 12px;color: #72b16a;word-spacing: 140%;margin-left: 10px;}
+
+#middle03_right .middle03_right02{width: 458px;height: 320px;margin-top:25px;background: #EEEED6;}
+#middle03_right .middle03_right02 ul{list-style:url(img/three.gif);margin-left: 50px;padding-top: 30px;}
+#middle03_right .middle03_right02 ul li{height:37px;font-size: 16px;color: #5a5b5b;font-family: "微软雅黑";line-height: 20px;text-align: left;}
+#middle03_right .middle03_right02 ul li>i{font-size: 12px;font-family: "宋体";text-align: right;}
+#middle03_right .middle03_right02 .red{width: 260px;height: 160px;background: #D55D5C;color: #fff;margin-top: 17px;float: left;}
+#middle03_right .middle03_right02 p.zero{font-size: 110px;font-family: "微软雅黑";float: left;margin-left: 10px;}
+#middle03_right .middle03_right02 .red>div{width: 2px;height: 86px;background: #fff;float: left;margin-top: 30px;margin-left: 5px;margin-right: 10px;}
+#middle03_right .middle03_right02 p.one{padding-top: 30px;}
+#middle03_right .middle03_right02 p.one>i{font-size: 14px;font-family: "微软雅黑";word-spacing: 6px;}
+#middle03_right .middle03_right02 p.one>span{font-size: 12px;font-family: "黑体";line-height: 6px;word-spacing: 2px;letter-spacing: -0.3px;}
+#middle03_right .middle03_right02 .hello{width: 190px;height: 320px;float: right;margin-top: 10px;}
+#middle03_right .middle03_right02 .hello i{font-size: 14px;color: #5a5b5b;font-family: "黑体";line-height: 16px;}
+#middle03_right .middle03_right02 .hello span{font-size: 72px;color: #d45d5c;width: 85px;height: 37px;}
+#middle03_right .middle03_right02 .hello .span01{float: left;}
+#middle03_right .middle03_right02 .hello .span02{float: right;}
+footer>div{width: 892px;height: 1px;background: #938e8c;margin-top: 50px;}
+footer>p{font-size: 12px;color: #d45d5c;font-family: "黑体";text-align: right;}
