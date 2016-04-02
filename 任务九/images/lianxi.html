@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div id="box">
+		<h1 id="h1">这是一个标题</h1>
+		<h2>这是一个标题</h2>
+	</div>
+
+	<script type="text/javascript">
+		/*var oH=document.createElement("h1");
+		var node=document.createTextNode("这是一个段落");
+		oH.appendChild(node);
+		var oBox=document.getElementById('box');
+		oBox.appendChild(oH);
+
+		var oH2=document.getElementById("h1");
+		oBox.removeChild(oH2);*/
+
+		var person=new Object();
+		person.name="韩月";
+		person.age=20;
+		person.hobby="前端编程";
+		person.school="西安邮电大学";	
+		document.write("姓名："+person.name+"<br>"+"年龄:"+person.age+"<br>"+"爱好："+person.hobby+"学校："+person.school);
+
+		var myfather=new person("bill",40,"aaa","bbb");
+		document.write(myfather.name);
+	</script>
+</body>
+</html>
